@@ -5,8 +5,8 @@ class TestStringMethod_Upper(unittest.TestCase):
         self.assertEqual('foo'.upper(), 'FOO', "'foo'.upper()=='FOO'")
 
     def test_isupper(self):
-        self.assertTrue('FOO'.isupper(),"isupper positive case")
-        self.assertFalse('Foo'.isupper(), "isupper negative case")
+        self.assertTrue('FOO'.isupper(),"isupper +positive case")
+        self.assertFalse('Foo'.isupper(), "isupper -negative case")
 
 class TestStringMethod_Split(unittest.TestCase):
     def test_twoWords(self):
